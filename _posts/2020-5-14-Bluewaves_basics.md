@@ -37,3 +37,5 @@ I then created a sof link to my own directory so I could work with it
 ln -s ../read_group/brevolium_raw.vcf .
 
 using this new directory I could begin my analysis.
+
+
