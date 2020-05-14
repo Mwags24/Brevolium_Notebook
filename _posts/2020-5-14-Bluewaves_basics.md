@@ -23,7 +23,7 @@ In order to accsess Bluewaves I ssh into it with the following code:
 Further, in order to get to the project I am currently working on I can cd into the Brevolium_depth directory using the following code:
     cd /data/pradalab/Brevolium_depth/
 
-# Making a Directory for the data
+### Making a Directory for the data
 
 First I cd'd into the folder containing the data I will be working with and created a working directory
 ______
