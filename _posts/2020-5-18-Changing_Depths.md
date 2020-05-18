@@ -52,11 +52,14 @@ After filtering, kept 6743 out of a possible 163858 Sites
 
 After filtering, kept 5330 out of a possible 163858 Sites
 
+Here is a table relating the Accuracy to the amount of data
 
-| Depth | # of Sites |
+| **Depth** | **# of Sites** |
 | 5x | 58462 |
 | 10x | 23123 |
 | 15x | 13240 |
 | 20x | 9134 |
 | 25x | 6743 |
 | 30x | 5330 |
+
+This table shows that as the accuracy (Depth) increases the amount of sites able to be used for analysis decreases
