@@ -396,3 +396,4 @@ cat brevolium_snps_biallelic_mac3_miss50_30x.imiss
 |D74|	5330|	0|	3	|  0.000562852|
 |D78|	5330|	0|	0	|  0|
 |D80|	5330|	0|	1	|  0.000187617|
+

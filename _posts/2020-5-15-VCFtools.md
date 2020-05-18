@@ -5,8 +5,6 @@ categories:
 tags: 
 ---
 
-
-
 Using the VCF tools option in Linux The data files can be filtered through
 
 
