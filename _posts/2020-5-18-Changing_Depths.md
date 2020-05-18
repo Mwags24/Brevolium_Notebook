@@ -53,3 +53,10 @@ After filtering, kept 6743 out of a possible 163858 Sites
 After filtering, kept 5330 out of a possible 163858 Sites
 
 
+| Depth | # of Sites |
+| 5x | 58462 |
+| 10x | 23123 |
+| 15x | 13240 |
+| 20x | 9134 |
+| 25x | 6743 |
+| 30x | 5330 |
