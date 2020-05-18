@@ -16,12 +16,12 @@ Using the VCF tools option in Linux The data files can be filtered through
 module load VCFtools/0.1.16-foss-2019a-Perl-5.28.1
 
 # using the --depth function
-    This creates a file containing the mean depth per individule
-vcftools --vcf brevolium_raw.vcf --out brevolium_raw --depth
-    the output file has the suffix '.idepth'
+This creates a file containing the mean depth per individule
+    vcftools --vcf brevolium_raw.vcf --out brevolium_raw --depth
+the output file has the suffix '.idepth'
 
 # expected outcome
-cat brevolium_raw.idepth
+    cat brevolium_raw.idepth
 INDV	N_SITES	MEAN_DEPTH
 S90	1326660	14.1327
 S80	1098888	6.79234
@@ -72,11 +72,11 @@ D78	1361722	14.4019
 D80	1382187	14.0585
 
 # Using the --missing-indv tool
-    this creates a file that reports the missingness on a per-individule basis
-vcftools --vcf brevolium_raw.vcf --out brevolium_raw --missing-indv
+this creates a file that reports the missingness on a per-individule basis
+    vcftools --vcf brevolium_raw.vcf --out brevolium_raw --missing-indv
 
-    the output file has the suffix '.imiss'
-cat brevolium_raw.imiss 
+the output file has the suffix '.imiss'
+    cat brevolium_raw.imiss 
 # expected outcome
 INDV	N_DATA	N_GENOTYPES_FILTERED	N_MISS	F_MISS
 S90	1715603	0	388943	0.226709
@@ -130,22 +130,22 @@ D80	1715603	0	333416	0.194343
 
 ## Using --remove-indels and --recode 
 # --remove-indels
-    this command will remove sites that contain variants that alter the length og the REF allele.
+this command will remove sites that contain variants that alter the length og the REF allele.
 
 # --recode and --recode-INFO-all
-    this command will make the output include all the information from the original raw vcf file
+this command will make the output include all the information from the original raw vcf file
 
-vcftools --vcf brevolium_raw.vcf --remove-indels --recode --recode-INFO-all --out brevolium_snps 
+    vcftools --vcf brevolium_raw.vcf --remove-indels --recode --recode-INFO-all --out brevolium_snps 
 
 
 # filtering by depth from the recoded vcf
 
-vcftools --vcf brevolium_raw.vcf --depth  --recode-INFO-all --out brevolium_raw 
+    vcftools --vcf brevolium_raw.vcf --depth  --recode-INFO-all --out brevolium_raw 
 
 
-vcftools --vcf brevolium_snps.recode.vcf --out brevolium_snps --depth
+    vcftools --vcf brevolium_snps.recode.vcf --out brevolium_snps --depth
 # expected output
-cat brevolium_snps.idepth
+    cat brevolium_snps.idepth
 INDV	N_SITES	MEAN_DEPTH
 S90	1133976	14.2425
 S80	942191	6.83384
@@ -196,9 +196,9 @@ D78	1162190	14.4348
 D80	1180084	14.1188
 
 # filtering the missing individules from the recoded vcf
-vcftools --vcf brevolium_snps.recode.vcf --out brevolium_snps --missing-indv
+    vcftools --vcf brevolium_snps.recode.vcf --out brevolium_snps --missing-indv
 
-cat brevolium_snps.imiss
+    cat brevolium_snps.imiss
 # expected output
 INDV	N_DATA	N_GENOTYPES_FILTERED	N_MISS	F_MISS
 S90	1441692	0	307716	0.213441
@@ -250,23 +250,25 @@ D78	1441692	0	279502	0.193871
 D80	1441692	0	261608	0.181459
 
 # using --min/max-alleles
-    this code keeps SNPs with a certain amount of alleles. in this case it is filtered for only bi-allelic SNPs
-vcftools --vcf brevolium_snps.recode.vcf --min-alleles 2 --max-alleles 2 --recode --recode-INFO-all --out brevolium_snps_biallelic
+this code keeps SNPs with a certain amount of alleles. in this case it is filtered for only bi-allelic SNPs
+    vcftools --vcf brevolium_snps.recode.vcf --min-alleles 2 --max-alleles 2 --recode --recode-INFO-all --out brevolium_snps_biallelic
 
 ## Using --max-missing, --mac, and --minQ
 # --max-missing 
-    this code filters for variants that that have a certain percentage of individules that have been succsessfully genotyped. 
-    in this case we filter for 50% (--max-missing 0.5)
+this code filters for variants that that have a certain percentage of individules that have been succsessfully genotyped. 
+in this case we filter for 50% (--max-missing 0.5)
 # --mac
-    filters for a minimum minor allele count 
-    in this case we filter for a minor allele count of 3 (--mac 3)
+filters for a minimum minor allele count 
+in this case we filter for a minor allele count of 3 (--mac 3)
 # --minQ
-    this code dilters for a minimum quality score
-    in this case we filer for a quality of 30 and up (--minQ 30)
+this code dilters for a minimum quality score
+in this case we filer for a quality of 30 and up (--minQ 30)
 
-vcftools --gzvcf brevolium_snps_biallelic.recode.vcf --max-missing 0.5 --mac 3 --minQ 30 --recode --recode-INFO-all --out brevolium_snps_biallelic_mac3_miss50
+    vcftools --gzvcf brevolium_snps_biallelic.recode.vcf --max-missing 0.5 --mac 3 --minQ 30 --recode --recode-INFO-all --out brevolium_snps_biallelic_mac3_miss50
 
 ## Trying different minimum depths 
 
 # 10x
-vcftools --gzvcf  brevolium_snps_biallelic_mac3_miss50.recode.vcf --min-meanDP 10 --recode --recode-INFO-all --out brevolium_snps_biallelic_mac3_miss50_10x
+    vcftools --gzvcf  brevolium_snps_biallelic_mac3_miss50.recode.vcf --min-meanDP 10 --recode --recode-INFO-all --out brevolium_snps_biallelic_mac3_miss50_10x
+
+after creating the file with 10x depth I will make plots in R using ggplot2
