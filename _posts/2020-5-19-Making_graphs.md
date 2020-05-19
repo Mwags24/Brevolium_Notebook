@@ -123,6 +123,8 @@ I can also color based on the genotype that is assosiated with the symbiont
 
 ![10x]({{ site.baseurl }}/images/10x_Depth_genotype.pdf "10x")
 
-## 15x colored by genotype
+## 30x colored by genotype
 
-![15x]({{ site.baseurl }}/images/15x_Depth_genotype.pdf "15x")
+![30x]({{ site.baseurl }}/images/30x_Depth_genotype.pdf "30x")
+
+This shows an extremely evident segregation between populations with the shallow genotype from populations with the deep genotyoe 
