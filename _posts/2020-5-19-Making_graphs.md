@@ -5,7 +5,7 @@ categories:
 tags: 
 ---
 
-##
+## 
 
 
 In order to make graphs I loaded the files into R
@@ -45,30 +45,72 @@ theme<-theme(panel.background = element_blank(),panel.border=element_rect(fill=N
 p <- p +theme
 p
 
+# Load pop data
+
+```{r}
+pop.data <- read.table("mappingfile_2.txt", sep = "\t", header = TRUE)
+pop.data
+```
+
+# Assign pop (genotype and environment) data to the genlight object
+
+```{r}
+strata(genlight_23123_SNPs) <- pop.data
+strata(genlight_23123_SNPs) 
+
+```
+
+```{r}
+library(adegenet)
+genlight_23123_SNPs@pop <- genlight_23123_SNPs@strata$environment
+cols <- diverge_hcl(n=nPop(genlight_23123_SNPs))
+
+genlight_23123_SNPs_pca <- glPca(genlight_23123_SNPs, nf=3)
+genlight_23123_SNPs_pca_scores <- as.data.frame(genlight_23123_SNPs_pca$scores)
+
+genlight_23123_SNPs_pca_scores$pop <- pop(genlight_23123_SNPs)
+genlight_23123_SNPs_pca_scores
+
+
+```
+
+
+```{r}
+set.seed(9)
+p <- ggplot(genlight_23123_SNPs_pca_scores, aes(x=PC1, y=PC2, colour=pop))
+p <- p + geom_point(size=2)
+p <- p + scale_color_manual(values = cols) 
+p <- p + geom_hline(yintercept = 0) 
+p <- p + geom_vline(xintercept = 0) 
+p <- p + theme_bw()
+p
+
+
+
 This was repeated for each depth and produced the following graphs
 
 ## 5x
 
-![5x]({{ site.baseurl }}/images/5x_Depth.pdf "5x")
+![5x]({{ site.baseurl }}/images/5x_Depth_pop.pdf "5x")
 
 ## 10x
 
-![10x]({{ site.baseurl }}/images/10x_Depth.pdf "10x")
+![10x]({{ site.baseurl }}/images/10x_Depth_pop.pdf "10x")
 
 ## 15x
 
-![15x]({{ site.baseurl }}/images/15x_Depth.pdf "15x")
+![15x]({{ site.baseurl }}/images/15x_Depth_pop.pdf "15x")
 
 
 ## 20x
 
-![20x]({{ site.baseurl }}/images/20x_Depth.pdf "20x")
+![20x]({{ site.baseurl }}/images/20x_Depth_pop.pdf "20x")
 
 ## 25x
 
-![25x]({{ site.baseurl }}/images/25x_Depth.pdf "25x")
+![25x]({{ site.baseurl }}/images/25x_Depth_pop.pdf "25x")
 
 
 ## 30x
 
-![30x]({{ site.baseurl }}/images/30x_Depth.pdf "30x")
+![30x]({{ site.baseurl }}/images/30x_Depth_pop.pdf "30x")
