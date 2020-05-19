@@ -50,3 +50,25 @@ This was repeated for each depth and produced the following graphs
 ## 5x
 
 ![5x]({{ site.baseurl }}/images/5x_Depth.pdf "5x")
+
+## 10x
+
+![10x]({{ site.baseurl }}/images/10x_Depth.pdf "10x")
+
+## 15x
+
+![15x]({{ site.baseurl }}/images/15x_Depth.pdf "15x")
+
+
+## 20x
+
+![20x]({{ site.baseurl }}/images/20x_Depth.pdf "20x")
+
+## 25x
+
+![25x]({{ site.baseurl }}/images/25x_Depth.pdf "25x")
+
+
+## 30x
+
+![30x]({{ site.baseurl }}/images/30x_Depth.pdf "30x")
