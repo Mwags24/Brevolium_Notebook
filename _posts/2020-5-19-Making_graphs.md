@@ -114,3 +114,15 @@ This was repeated for each depth and produced the following graphs
 ## 30x
 
 ![30x]({{ site.baseurl }}/images/30x_Depth_pop.pdf "30x")
+
+
+Those grphs were all colored based on where the sample was found (S=shallow, D=Deep)
+I can also color based on the genotype that is assosiated with the symbiont 
+
+## 10x colored by genotype
+
+![10x]({{ site.baseurl }}/images/10x_Depth_genotype.pdf "10x")
+
+## 15x colored by genotype
+
+![15x]({{ site.baseurl }}/images/15x_Depth_genotype.pdf "15x")

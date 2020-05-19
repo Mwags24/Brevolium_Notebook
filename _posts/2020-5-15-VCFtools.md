@@ -249,14 +249,19 @@ D80	1441692	0	261608	0.181459
 ## Using --min/max-alleles
 this code keeps SNPs with a certain amount of alleles. in this case it is filtered for only bi-allelic SNPs
     vcftools --vcf brevolium_snps.recode.vcf --min-alleles 2 --max-alleles 2 --recode --recode-INFO-all --out brevolium_snps_biallelic
+Bi-allelic makes sure that we are working with 
 
 # Using --max-missing, --mac, and --minQ
 ## --max-missing 
 this code filters for variants that that have a certain percentage of individules that have been succsessfully genotyped. 
 in this case we filter for 50% (--max-missing 0.5)
+
+takes out anything with over 50% missing information
+
 ## --mac
 filters for a minimum minor allele count 
 in this case we filter for a minor allele count of 3 (--mac 3)
+Makes sure that it is homozygeous (2) or heterozygous 
 ## --minQ
 this code dilters for a minimum quality score
 in this case we filer for a quality of 30 and up (--minQ 30)
