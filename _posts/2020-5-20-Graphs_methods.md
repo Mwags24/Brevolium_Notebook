@@ -25,3 +25,6 @@ This Bargraph was made again but only for individules at 10x depth
 
 ![Bargraph10x]({{ site.baseurl }}/images/Missing_info_bargraph_10x.pdf "Bargraph of 10x")
 The individules with over .1 missing info were labeled 
+
+![Bargraph10xFlipped]({{ site.baseurl }}/images/Missing_info_bargraph_10x_flipped.pdf "Bargraph of 10x")
+
