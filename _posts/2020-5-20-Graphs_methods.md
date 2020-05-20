@@ -51,3 +51,5 @@ In order to better see the Individules this graph was flipped on its side and or
 ### Papers I read 
 
 Long prereproductive selection and divergence by depth in a Caribbean candelabrum coral - Carlos Prada 2012
+
+Principle component analysis - https://www.sciencedirect.com/science/article/abs/pii/0169743987800849
