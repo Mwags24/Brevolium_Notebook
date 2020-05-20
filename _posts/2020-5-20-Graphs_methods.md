@@ -5,7 +5,7 @@ categories:
 tags: 
 ---
 
-##Graphs showing the amount of missing Info 
+## Graphs Showing Missing Info 
 
 Using the tables of Missing info found {add link here} A boxplot was created of all depths showing the outliers 
 
@@ -15,8 +15,6 @@ Any individule with over .2 missing info was labled
 
 The next box plot only has individules at 10x depth
 ![Boxplot10x]({{ site.baseurl }}/images/Missing_info_boxplot_10x.pdf "Boxplot of 10x")
-
-Any individule with over .2 missing info is labled 
 
 
 Next a bar graph was created that showed the average missing info over all depths of each individule 
@@ -36,7 +34,7 @@ In order to better see the Individules this graph was flipped on its side and or
 
 
 
-# writing out my Methods so far
+# Methods so far
 
 ## List version
 
@@ -50,3 +48,6 @@ In order to better see the Individules this graph was flipped on its side and or
 * The sampling location and the genotype of the sample were used to show how the populations were segregated 
 * missing data was looked at, in the form of graphs, to see what individules should be removed
 
+### Papers I read 
+
+Long prereproductive selection and divergence by depth in a Caribbean candelabrum coral - Carlos Prada 2012
