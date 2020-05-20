@@ -397,3 +397,57 @@ cat brevolium_snps_biallelic_mac3_miss50_30x.imiss
 |D78|	5330|	0|	0	|  0|
 |D80|	5330|	0|	1	|  0.000187617|
 
+
+
+
+
+# Mapping File
+### For reference, this is the mapping file
+
+|colony.id|	genotype|	environment|	sample|
+|S90|	S|	S|	SS90|
+|S80|	S|	S|	SS80|
+|S71|	D|	S|	DS71|
+|S65|	D|	S|	DS65|
+|S62|	D|	S|	DS62|
+|S87|	S|	S|	SS87|
+|D56|	D|	D|	DD56|
+|D52|	D|	D|	DD52|
+|S35|	S|	S|	SS35|
+|S40|	S|	S|	SS40|
+|S25|	S|	S|	SS25|
+|S19|	S|	S|	SS19|
+|D14|	S|	D|	SD14|
+|D13|	S|	D|	SD13|
+|S12|	S|	S|	SS12|
+|S89|	D|	S|	DS89|
+|S22|	S|	S|	SS22|
+|S07|	S|	S|	SS07|
+|D24|	S|	D|	SD24|
+|D38|	NA|	D|	_D38|
+|D87|	D|	D|	DD87|
+|D18|	S|	D|	SD18|
+|S75|	D|	S|	DS75|
+|D03|	S|	D|	SD03|
+|S21|	S|	S|	SS21|
+|D08|	S|	D|	SD08|
+|DS13|	S|	S|	SS13|
+|D29|	S|	D|	SD29|
+|S56|	D|	S|	DS56|
+|D01|	S|	D|	SD01|
+|S14|	S|	S|	SS14|
+|S53|	D|	S|	DS53|
+|D70|	D|	D|	DD70|
+|D20|	D|	D|	DD20|
+|S52|	D|	S|	DS52|
+|D58|	D|	D|	DD58|
+|S03|	NA|	S|	_S03|
+|D68|	D|	D|	DD68|
+|S86|	D|	S|	DS86|
+|S20|	S|	S|	SS20|
+|D60|	D|	D|	DD60|
+|D64|	D|	D|	DD64|
+|D62|	S|	D|	SD62|
+|D74|	D|	D|	DD74|
+|D78|	D|	D|	DD78|
+|D80|	S|	D|	SD80|
