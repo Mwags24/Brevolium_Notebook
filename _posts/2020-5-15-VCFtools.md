@@ -249,7 +249,7 @@ D80	1441692	0	261608	0.181459
 ## Using --min/max-alleles
 this code keeps SNPs with a certain amount of alleles. in this case it is filtered for only bi-allelic SNPs
     vcftools --vcf brevolium_snps.recode.vcf --min-alleles 2 --max-alleles 2 --recode --recode-INFO-all --out brevolium_snps_biallelic
-Bi-allelic makes sure that we are working with 
+
 
 # Using --max-missing, --mac, and --minQ
 ## --max-missing 
