@@ -53,3 +53,6 @@ In order to better see the Individules this graph was flipped on its side and or
 Long prereproductive selection and divergence by depth in a Caribbean candelabrum coral - Carlos Prada 2012
 
 Principle component analysis - https://www.sciencedirect.com/science/article/abs/pii/0169743987800849
+
+Prada, Phenotypic plasticity or speciation? A case from a clonal marine organism 
+https://slack-files.com/files-pri-safe/TE7B9NE5A-F013KN4MYH5/prada_et_al._-_2008_-_phenotypic_plasticity_or_speciation_a_case_from_a.pdf?c=1590066090-4c23e8f3a74c2493
