@@ -71,10 +71,10 @@ myles_wagner@bluewaves.uri.edu:/data/pradalab/Brevolium_depth/vcf_files/brevoliu
 # Making the PCA graphs
 
 
-![10xfiltered]({{ site.baseurl }}/images/10x_Depth_pop_filtered "10x PCA after filtering")
+![10xfiltered]({{ site.baseurl }}/images/10x_Depth_pop_filtered.pdf "10x PCA after filtering")
 
-![10xfiltered]({{ site.baseurl }}/images/10x_Depth_genotype_filtered "10x PCA after filtering")
+![10xfiltered]({{ site.baseurl }}/images/10x_Depth_genotype_filtered.pdf "10x PCA after filtering")
 
 ### Compare to the graph that has not been as filtered 
 
-![10x]({{ site.baseurl }}/images/10x_Depth_genotype "10x PCA")
+![10x]({{ site.baseurl }}/images/10x_Depth_genotype.pdf "10x PCA")

@@ -11,6 +11,7 @@ tags:
 In order to make graphs I loaded the files into R
 
 Using this code in my local terminal I downloaded the files I needed onto my computer
+
     scp -r myles_wagner@bluewaves.uri.edu:/data/pradalab/Brevolium_depth/vcf_files/brevolium_snps_biallelic_mac3_miss50_10x.recode.vcf /Users/myles/Desktop/brevolium
 
 Then in R I used the following code to create some preliminary graphs.
