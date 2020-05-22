@@ -274,3 +274,26 @@ in this case we filer for a quality of 30 and up (--minQ 30)
     vcftools --gzvcf  brevolium_snps_biallelic_mac3_miss50.recode.vcf --min-meanDP 10 --recode --recode-INFO-all --out brevolium_snps_biallelic_mac3_miss50_10x
 
 after creating the file with 10x depth I will make plots in R using ggplot2
+
+
+# (5/22/20) I went back in and refiltered
+
+## started with Depth filter of 10x
+vcftools --gzvcf  brevolium_snps_biallelic.recode.vcf --min-meanDP 10 --recode --recode-INFO-all --out brevolium_snps_biallelic_10x
+    After filtering, kept 347031 out of a possible 1415812 Sites
+
+## Applying --max-missing, --minQ, and exclusing --mac
+
+vcftools --gzvcf brevolium_snps_biallelic_10x.recode.vcf --max-missing 0.5 --minQ 30 --recode --recode-INFO-all --out brevolium_snps_biallelic_10x_mac3_miss50
+    kept 48145 out of a possible 347031 Sites
+
+## --maf 0.01
+
+vcftools --gzvcf brevolium_snps_biallelic_10x_mac3_miss50.recode.vcf --maf 0.01 --recode --recode-INFO-all --out brevolium_snps_biallelic_10x_mac3_miss50_maf01
+    After filtering, kept 30795 out of a possible 48145 Sites
+
+
+## --thin 1000
+
+vcftools --gzvcf brevolium_snps_biallelic_10x_mac3_miss50_maf01.recode.vcf --thin 1000 --recode --recode-INFO-all --out brevolium_snps_biallelic_10x_mac3_miss50_maf01_thin1000
+    After filtering, kept 7877 out of a possible 30795 Sites
