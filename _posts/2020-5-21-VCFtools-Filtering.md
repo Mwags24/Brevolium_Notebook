@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using VCF tools"
+title: "Using VCFtools to Filter"
 categories: 
 tags: 
 ---
@@ -69,7 +69,6 @@ myles_wagner@bluewaves.uri.edu:/data/pradalab/Brevolium_depth/vcf_files/brevoliu
 
 
 # Making the PCA graphs
-
 
 ![10xfiltered]({{ site.baseurl }}/images/10x_Depth_pop_filtered.pdf "10x PCA after filtering")
 
