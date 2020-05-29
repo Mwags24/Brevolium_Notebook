@@ -64,7 +64,7 @@ Since both of these values came out as 0 it suggests that there are no SNPs unde
 ![Bayescanalpha]({{ site.baseurl }}/images/Bayescan_pop_Fst1.pdf "Bayescan pop Fst1")
 
 
-![BayescanLogL]({{ site.baseurl }}/images/Bayescan_pop_logL.pdf "Bayescan pop LogL")
+![BayescanLogL]({{ site.baseurl }}/images/Bayescan_pop_LogL.pdf "Bayescan pop LogL")
 
 
 
