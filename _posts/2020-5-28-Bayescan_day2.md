@@ -93,7 +93,7 @@ java -jar PGDSpider_2.1.1.5/PGDSpider2-cli.jar -inputfile brevolium_snps_biallel
 #SBATCH --mail-type=FAIL  --mail-user=myles_wagner@my.uri.edu
 cd $SLURM_SUBMIT_DIR
 module load BayeScan/2.1-foss-2016b 
-bayescan_2.1 brevolium_snps_biallelic_5x.bayescan -o brevolium_snps_biallelic_5x.bayescan.out put -n 5000 -thin 10 -nbp 20 -pilot 5000 -burn 50000 -pr_odds 100 -threads 20
+bayescan_2.1 brevolium_snps_biallelic_5x_pop.bayescan -o brevolium_snps_biallelic_5x_pop.bayescan.out put -n 5000 -thin 10 -nbp 20 -pilot 5000 -burn 50000 -pr_odds 100 -threads 20
 ```
 
 ### sbatch bayescan.sh
