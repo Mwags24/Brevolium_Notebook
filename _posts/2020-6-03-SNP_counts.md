@@ -19,6 +19,6 @@ tags:
 
 
 
-#final file:
+# final file:
 
 |brevolium_snps_biallelic_10x_miss50_maf01_thin1000_HWEpop.recode.vcf| 7043 sites|
