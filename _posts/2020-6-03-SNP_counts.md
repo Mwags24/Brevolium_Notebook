@@ -5,7 +5,10 @@ categories:
 tags: 
 ---
 
-### the number of snps for each filtering step
+# the number of snps for each filtering step
+
+
+
 
 |**File**|**Filter applied**|**Number of  SNPs**|
 |brevolium_snps_biallelic.recode.vcf | -min-meanDP 10 |kept 347031 out of a possible 1415812 Sites|
