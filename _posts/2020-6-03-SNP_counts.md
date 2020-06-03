@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "table with snp counts"
+title: "Table with snp counts"
 categories: 
 tags: 
 ---
 
-# the number of snps for each filtering step
+# The number of snps for each filtering step
 
 
 
@@ -19,6 +19,6 @@ tags:
 
 
 
-# final file:
+# Final file:
 
 |brevolium_snps_biallelic_10x_miss50_maf01_thin1000_HWEpop.recode.vcf| 7043 sites|
