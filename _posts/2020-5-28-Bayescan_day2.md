@@ -67,35 +67,3 @@ Since both of these values came out as 0 it suggests that there are no SNPs unde
 ![BayescanLogL]({{ site.baseurl }}/images/Bayescan_pop_LogL.pdf "Bayescan pop LogL")
 
 
-
-
-
-# Repeated with less filtered file
-since no resluts were being shown after using the vcf file that was filtered with 10x depth and a few other filters, a file with minimal filtering was tried 
-
-#######Not Done Yet###########
-
-#repeated with an even less filtered file (5x depth only) 
-
-vcftools --gzvcf  brevolium_snps_biallelic.recode.vcf --min-meanDP 5 --recode --recode-INFO-all --out brevolium_snps_biallelic_5x
-
-
-java -jar PGDSpider_2.1.1.5/PGDSpider2-cli.jar -inputfile brevolium_snps_biallelic_5x.recode.vcf -outputfile brevolium_snps_biallelic_5x.bayescan -spid BSsnp.spid
-
-
-### nano bayescan.sh
-```
-#!/bin/bash
-#SBATCH -t 72:00:00
-#SBATCH --nodes=1 --ntasks-per-node=20
-#SBATCH --mail-type=BEGIN  --mail-user=myles_wagner@my.uri.edu
-#SBATCH --mail-type=END  --mail-user=myles_wagner@my.uri.edu
-#SBATCH --mail-type=FAIL  --mail-user=myles_wagner@my.uri.edu
-cd $SLURM_SUBMIT_DIR
-module load BayeScan/2.1-foss-2016b 
-bayescan_2.1 brevolium_snps_biallelic_5x_pop.bayescan -o brevolium_snps_biallelic_5x_pop.bayescan.out put -n 5000 -thin 10 -nbp 20 -pilot 5000 -burn 50000 -pr_odds 100 -threads 20
-```
-
-### sbatch bayescan.sh
-
-
