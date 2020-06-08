@@ -50,3 +50,13 @@ awk '/CV/ {print $3,$4}' log*out | cut -c 4,7-20 > admixt_k8.cv.error
 |8 |0.45484|
 
 number 2 has the least error at 0.33707
+
+
+awk '{split($1,name,"."); print $1,name[2]}' brevolium_snps_biallelic_10x_miss50_maf01_thin1000_HWEpop.newID.nosex > admixt_k8.list
+
+
+
+
+# R code to plot admixture results
+
+wget https://github.com/speciationgenomics/scripts/raw/master/plotADMIXTURE.r
