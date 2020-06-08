@@ -39,4 +39,14 @@ plink --file brevolium_snps_biallelic_10x_miss50_maf01_thin1000_HWEpop --update-
 ### finding lowest cross-validation error
 awk '/CV/ {print $3,$4}' log*out | cut -c 4,7-20 > admixt_k8.cv.error
 
+|K clusters|Cross-validation error|
+|1 |0.74086|
+|2 |0.33707|
+|3 |0.40522|
+|4 |0.40885|
+|5 |0.41461|
+|6 |0.42955|
+|7 |0.48563|
+|8 |0.45484|
+
 number 2 has the least error at 0.33707
