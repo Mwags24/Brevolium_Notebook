@@ -6,8 +6,7 @@ tags:
 ---
 
 
-
-# 
+# Creating P and Q Admixture files
 
 ## Transforming VCF to PLINK
 
