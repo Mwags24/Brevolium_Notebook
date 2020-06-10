@@ -20,10 +20,10 @@ Corals rely on a symbiotic dinoflagelate for much of the coral's energy needs. U
 * Population genetics 
 * Past Coral depth studies  
 * How Symbionts are being classified more specifically 
- * Phylogenetics
- * PCA
- * SNPs
- * other methods that need background 
+    * Phylogenetics
+    * PCA
+    * SNPs
+    * other methods that need background 
 * Climate change and conservation efforts 
 
 
@@ -70,10 +70,24 @@ NCBI used to determine the use of the genes
 **Figure 3** An Admixture plot using the K3 values. Assuming that there are three populations. 
 
 
+* NCBI tree rooting our poplation into bigger tree
+
 
 # Discussion
 
 
+* Easy to see different populations, possibly different species
+* how each method was useful or unuseful
+
+* Symbionts are critical parts to the reef ecosystem 
+* Symbionts and Brevolium are still being classified
+* How this fits into the broader tree
 
 
 # Conclusion
+
+* These two species are likly different species
+* The symbionts that live at Depth are different from the ones that live in shallower water
+* Were the genetic differences between the corals segregated by depth similar to the amount of difference between symbiont?
+* We do not have a clear enough genetic tree of the symbionts
+    * There are likly many more undiscovered species
