@@ -7,7 +7,7 @@ tags:
 
 # Abstract, Methods, Figure discriptions
 
-
+This is a first rough draft of a paper for this project. I have put bullet points in the sections that I have not written to make a list of things that still need to be added or will be included 
 
 # Abstract
 Corals rely on a symbiotic dinoflagelate for much of the coral's energy needs. Until recently these symbionts were all classified under the genus symbiodinium. However as Genetic and Phylogenetic analysis became more readily used it was shown that the symbionts are not just a single Genus but a wide variety of genetically different groups. Brevolium is one of these symbiont groups. The brevolium group can be found in Enuicea flexosa a soft octocoral in the Caribean that have a wider variety of habital environments, specifically different populations of this coral can be found at varrying depths. In this study the Brevolium within Enuicea flexosa are tested using various genetic and phylogenetic analysis to determine how these populations of symbiont differ from each other. The results point to the conclusion that these two populations of symbiont are in fact genetically separate. An FST value of .4, a PCA analysis, and Distance tree all place these two populations as separate species segregated by depth. Using PCAdapt to determine the SNPs under selection allowed us to see that the genes that differ between the two populations are the genes related to (hopefully something good). This showed that the symbionts are able to adapt to different (Maybe light levels). Recognizing and identifying specific species of Brevolium that have different sets of adaptations will be an important part of conservation. Knowing what symbiont will be best suited to different environments 
@@ -39,9 +39,8 @@ The information was transitioned to a vcf file and the number of snps were filte
 Bayescan and PCAdapt analysises were performed in order to deermine which SNPs were under selection. 
 Hardy wineburg was performed to further filter the data based on their populations.
 Using Admixture 8 files with K values from 1 to 8 were generated and the file with the least cross-validation error was selected. Using this file and the mapping file barplots were created 
-NCBI used to determine the use of the genes
 
-
+* NCBI used to determine the use of the genes
 
 
 
