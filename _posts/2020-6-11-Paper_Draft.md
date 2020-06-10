@@ -44,6 +44,7 @@ NCBI used to determine the use of the genes
 
 
 ### PCA
+
 |**(A)**|**(B)**|
 |![PCA]({{ site.baseurl }}/images/10x_PCA_noNA.pdf "PCA") | ![Eigenvalues]({{ site.baseurl }}/images/PCA_Eigenvalues_noNA.pdf "Eigenvalues") |
 
