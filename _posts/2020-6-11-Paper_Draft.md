@@ -48,7 +48,9 @@ NCBI used to determine the use of the genes
 |**(A)**|**(B)**|
 |![PCA]({{ site.baseurl }}/images/10x_PCA_noNA.pdf "PCA") | ![Eigenvalues]({{ site.baseurl }}/images/PCA_Eigenvalues_noNA.pdf "Eigenvalues") |
 
-**Figure 2**
+**Figure 2**. **(A)**Principle Component Analysis using PCA1 and PCA2. The two populations are segreated by PCA1. **(B)** The Eigenvalues showing the amount of varience discribed by each PCA. PCA1 describes most of the varience
 
 ### K3 Admixture
 ![K3]({{ site.baseurl }}/images/Admixture_K3_plot.pdf "Admixture K3 plot")
+
+**Figure 3** An Admixture plot using the K3 values. Assuming that there are three populations. 
