@@ -13,13 +13,28 @@ tags:
 Corals rely on a symbiotic dinoflagelate for much of the coral's energy needs. Until recently these symbionts were all classified under the genus symbiodinium. However as Genetic and Phylogenetic analysis became more readily used it was shown that the symbionts are not just a single Genus but a wide variety of genetically different groups. Brevolium is one of these symbiont groups. The brevolium group can be found in Enuicea flexosa a soft octocoral in the Caribean that have a wider variety of habital environments, specifically different populations of this coral can be found at varrying depths. In this study the Brevolium within Enuicea flexosa are tested using various genetic and phylogenetic analysis to determine how these populations of symbiont differ from each other. The results point to the conclusion that these two populations of symbiont are in fact genetically separate. An FST value of .4, a PCA analysis, and Distance tree all place these two populations as separate species segregated by depth. Using PCAdapt to determine the SNPs under selection allowed us to see that the genes that differ between the two populations are the genes related to (hopefully something good). This showed that the symbionts are able to adapt to different (Maybe light levels). Recognizing and identifying specific species of Brevolium that have different sets of adaptations will be an important part of conservation. Knowing what symbiont will be best suited to different environments 
 
 
+#Intro
+
+* Coral Symbiont Relationships
+ * photosynthesis and light   
+* Population genetics 
+* Past Coral depth studies  
+* How Symbionts are being classified more specifically 
+ * Phylogenetics
+ * PCA
+ * SNPs
+ * other methods that need background 
+* Climate change and conservation efforts 
+
+
+
 
 
 
 # Methods
 
 
-Original sampling occurred in the carribean (Prada 20__). Eunicea flexuosa was sampled at ____ sites. The depths of the coral from each site were recorded and used to separate them into two populations. Further genetic sampling placed each coral in either the shallow population or the deep population. The symbiont within the coral was also genetically sequenced.
+Original sampling occurred in the carribean (Prada (year)). Eunicea flexuosa was sampled at (number of sites) sites. The depths of the coral from each site were recorded and used to separate them into two populations. Further genetic sampling placed each coral in either the shallow population or the deep population. The symbiont within the coral was also genetically sequenced.
 The information was transitioned to a vcf file and the number of snps were filtered using vcf tools. First a minimum depth of 10x was established. The tool --miss .50  filtered out any snp with over 50% missing information. The minimum allele count was set at .01 and the file was thinned using --thin 1000. Using the thinned file graphs were made following the GBS tutorial. A minimum spanning network, PCA, DAPC,and Distance tree were made. The two populations were separated using their genetic info. A complot was made.
 Bayescan and PCAdapt analysises were performed in order to deermine which SNPs were under selection. 
 Hardy wineburg was performed to further filter the data based on their populations.
@@ -30,11 +45,10 @@ NCBI used to determine the use of the genes
 
 
 
+#Results
+ 
 
-
-
-
-# Figures
+## Figures
 
 ### Distance tree
 ![DistnceTree]({{ site.baseurl }}/images/DistanceTree_noNA.pdf "Distance Tree")
@@ -54,3 +68,12 @@ NCBI used to determine the use of the genes
 ![K3]({{ site.baseurl }}/images/Admixture_K3_plot.pdf "Admixture K3 plot")
 
 **Figure 3** An Admixture plot using the K3 values. Assuming that there are three populations. 
+
+
+
+# Discussion
+
+
+
+
+# Conclusion
