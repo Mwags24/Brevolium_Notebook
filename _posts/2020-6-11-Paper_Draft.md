@@ -26,6 +26,7 @@ Corals rely on a symbiotic dinoflagelate for much of the coral's energy needs. U
     * other methods that need background 
 * Climate change and conservation efforts 
 
+* The physical distribution of these symbionts has been studied, but it has not been looked at using SNPs and PCAs
 
 
 
