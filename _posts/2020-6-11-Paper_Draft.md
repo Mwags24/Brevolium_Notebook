@@ -66,12 +66,12 @@ Using Admixture 8 files with K values from 1 to 8 were generated and the file wi
 ### K3 Admixture
 ![K3]({{ site.baseurl }}/images/Admixture_K3_plot.pdf "Admixture K3 plot")
 
-**Figure 3** An Admixture plot using the K3 values. Assuming that there are three populations. 
+**Figure 3** An Admixture plot showing the K = 3 values. Assuming that there are three populations. 
 
 
 
 
-* NCBI tree rooting our poplation into bigger tree
+* NCBI tree rooting our poplation into larger tree
 * Value Tables?
     * Filtering steps
     * FST value
