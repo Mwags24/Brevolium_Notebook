@@ -47,11 +47,13 @@ Understanding the differences between brevolium species, and symbiont species in
 
 (lewis et al. 2018) - finding new brevolium species 
 
+(Prada, Hellberg 2012) - The depth study of the Coral
 
 
 
 
-
+Two sentence summary:
+Using population genetics to study two potentially different species of Brevolium that are segregated by depth. We are hoping to determine what genes may contribute to the difference between these species and see if it is connected to the light or temperature differences caused by the depth they are found at.
 
 
 
