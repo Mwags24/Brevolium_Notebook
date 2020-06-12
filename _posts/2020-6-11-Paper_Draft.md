@@ -91,7 +91,7 @@ Using Admixture 8 files with K values from 1 to 8 were generated and the file wi
 * How this fits into the broader tree
 * If Eunicea flexousa has two species of symbiont present in two seperate populations, could this mean that there are different other corals that have sepereated populations also have multiple symbionts? 
     * how many coral species vs symbiont species identified 
-
+* Brevolium is cited as found in shallow water (Lewis), is the population from deeper water considered deeper than normal? could this be a new finding about brevolium?
 
 
 
