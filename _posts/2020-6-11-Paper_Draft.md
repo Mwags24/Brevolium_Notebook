@@ -98,3 +98,7 @@ Using Admixture 8 files with K values from 1 to 8 were generated and the file wi
 * Were the genetic differences between the corals segregated by depth similar to the amount of difference between symbiont?
 * We do not have a clear enough genetic tree of the symbionts
     * There are likly many more undiscovered species
+
+
+
+This research is working off of research by Carlos that is similarly comparing symbiont species based on depth. The previous paper however still considered the symbiont to fall under the denious symbiodinium. this research is also using a population genomic approach coupled with phylogenetics/ the functional analysis of SNPs under selection to determine what traits may contribute to the difference in species.
