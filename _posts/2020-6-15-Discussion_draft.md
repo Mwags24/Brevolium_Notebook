@@ -45,6 +45,7 @@ Both show the same conclusions as the PCAs. The values
 
 **Distance Tree and NCBI**
 Using the SNP data a distance tree was created that clearly shows the genetic difference between the populations. There is a genetic distance of about .3 which has been described in other research as similar to the difference between (Cats and dogs - placeholder example). This makes it clear that these populations should be considered seperate populations. Using NCBI the tree was rooted into the larger brevolium genus and Symbiodinium family.
+The genetic difference between these two populations of symbiont is far greater than the genetic difference between the two populations of E. Flexousa they are assosiated with. 
 
 **Genes from NCBI**
 Using the SNP and genetic information from these corals we were able identify which genes are most relevent to the seperation of the shallow and deep population. 
