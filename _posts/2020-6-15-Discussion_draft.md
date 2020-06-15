@@ -29,6 +29,7 @@ tags:
 * How are symbionts passed on for Eunicea?
    * parents or environment? (horizontal or vertical)?
 
+# Discussion
 
 The results from this experiment suggest that the two populations of brevolium found at seperate depths within Eunicea flexuosa are distinct species. While occupying the same species of coral. The difference between the two populations is extremely clear with no outliers, and this has led us to consider that these two populations may be two different species. The lineage and diversity of the Brevolium genus is not well described, so the discovery of the separation between two species that occupy the same coral host could lead to some important conclusions.
 

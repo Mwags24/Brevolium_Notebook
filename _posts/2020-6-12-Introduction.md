@@ -27,7 +27,7 @@ tags:
 
 
 
-## Draft
+## intro Draft
 
 Corals around the world have established an endosymbiotic relationships with dinoflagellates. Corals require the energy produced by the algae through photosynthesis. The symbiotic algae benefits from the relationship by having a constant light source and receiving recycled inorganic nutrients. This endosymbiotic pair are reef builders and provide a home for countless marine species. There are many varieties of corals, the two main groups include hard and soft corals (explination). The knowledge of how many species of coral is well documented, however the symbiont family tree is far from being known.
 Until just recently these symbionts were classified under a single genus called Symbiodinium. However, as we further study this symbiont it is more clear how diverse this group of organisms are. The genus Symbiodinium has been split into many genera (Cladocopium, Brevolium, Fugacium, Durusdinium, Greakladium, Effrenium, Symbiodinium) (laJeunesse 2018). The species within these genera are not yet fully established.

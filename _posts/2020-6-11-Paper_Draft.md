@@ -46,7 +46,7 @@ Using Admixture 8 files with K values from 1 to 8 were generated and the file wi
 
 
 
-#Results
+# Results
  
 
 ## Figures
