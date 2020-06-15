@@ -71,12 +71,11 @@ Using Admixture 8 files with K values from 1 to 8 were generated and the file wi
 **Figure 3** An Admixture plot showing the K = 3 values. Assuming that there are three populations. 
 
 
-
+FST value was 0.40116
 
 * NCBI tree rooting our poplation into larger tree
 * Value Tables?
     * Filtering steps
-    * FST value
     * Bayescan/PCAdapt 
 
  
