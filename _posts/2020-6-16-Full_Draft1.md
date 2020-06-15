@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rough Draft #1 - Complete"
+title: "Rough Draft #1"
 categories: 
 tags: 
 ---
