@@ -14,7 +14,7 @@ Corals rely on a symbiotic dinoflagellate for much of the coral's energy needs. 
 
 # Introduction
 
-Corals around the world have established an endosymbiotic relationships with dinoflagellates. Corals require the energy produced by the algae through photosynthesis. The symbiotic algae benefits from the relationship by having a constant light source and receiving recycled inorganic nutrients. This endosymbiotic pair are reef builders and provide a home for countless marine species. There are many varieties of corals, the two main groups include hard and soft corals (explination). The knowledge of how many species of coral is well documented, however the symbiont family tree is far from being known.
+Corals around the world have established endosymbiotic relationships with dinoflagellates. Corals require the energy produced by the algae through photosynthesis. The symbiotic algae benefits from the relationship by having a constant light source and receiving recycled inorganic nutrients. This endosymbiotic pair are reef builders and provide a home for countless marine species. There are many varieties of corals, the two main groups include hard and soft corals (explanation). The knowledge of how many species of coral is well documented, however the symbiont family tree is far from being known.
 Until just recently these symbionts were classified under a single genus called Symbiodinium. However, as we further study this symbiont it is more clear how diverse this group of organisms are. The genus Symbiodinium has been split into many genera (Cladocopium, Brevolium, Fugacium, Durusdinium, Greakladium, Effrenium, Symbiodinium) (laJeunesse 2018). The species within these genera are not yet fully established.
 
 The soft coral *Eunicea flexuosa* is commonly associated with the *Brevolium* family of symbiont. *E. flexuosa* is an octocoral from the family Plexauridae. It is a broadcast spawner which allows for transference of symbiont between populations. Brevolium has been shown to be a diverse genus with species spread across the Caribbean (Lewis 2018). as Lewis said these putative species still need further testing.
@@ -36,14 +36,13 @@ Using Admixture 8 files with K values from 1 to 8 were generated and the file wi
 
 
 # Results
- 
 
 ## Figures
 
 ### Distance tree
 ![DistnceTree]({{ site.baseurl }}/images/DistanceTree_noNA.pdf "Distance Tree")
 
-**Figure 1**. Phylogenetic analysis of two populations of Brevolium From the Carribean. The populations are physically seperated by a depth kline. Genetically they are seperated by a distance of approximatly .3 or 30% genetic varience.
+**Figure 1**. Phylogenetic analysis of two populations of Brevolium From the Carribean. The populations are physically separated by a depth kline. Genetically they are separated by a distance of approximately .3 or 30% genetic variance.
 
 
 
@@ -52,20 +51,20 @@ Using Admixture 8 files with K values from 1 to 8 were generated and the file wi
 |**(A)**|**(B)**|
 |![PCA]({{ site.baseurl }}/images/10x_PCA_noNA.pdf "PCA") | ![Eigenvalues]({{ site.baseurl }}/images/PCA_Eigenvalues_noNA.pdf "Eigenvalues") |
 
-**Figure 2**. **(A)**Principle Component Analysis using PCA1 and PCA2. The two populations are segreated by PCA1. **(B)** The Eigenvalues showing the amount of varience discribed by each PCA. PCA1 describes most of the varience
+**Figure 2**. **(A)**Principal Component Analysis using PCA1 and PCA2. The two populations are segregated by PCA1. **(B)** The Eigenvalues showing the amount of variance described by each PCA. PCA1 describes most of the variance
 
 ### K3 Admixture
 ![K3]({{ site.baseurl }}/images/Admixture_K3_plot.pdf "Admixture K3 plot")
 
-**Figure 3** An Admixture plot showing the K = 3 values. Assuming that there are three populations. 
+**Figure 3** An Admixture plot showing the K = 3 values. Assuming that there are three populations.
 
 
 FST value was 0.40116
 
-* NCBI tree rooting our poplation into larger tree
+* NCBI tree rooting our population into larger tree
 * Value Tables?
-    * Filtering steps
-    * Bayescan/PCAdapt 
+   * Filtering steps
+   * Bayescan/PCAdapt
 
 
 # Discussion
@@ -100,4 +99,5 @@ Corals have been well classified and studied since their importance to the ocean
 
 # Conclusion
 
-The two populations of Brevolium found within Eunicea flexosa at different depths have been identified as likly candidates to be crytic species based upon the population genomics used in this experiment. Further the genes that seperate these populations have been identified to be assosiated with (placeholder). The evidence that there are two species of symbiont living in close proximity to each other within a single species of coral suggests that there could be a much higher magnitude of symbiont species that recently suggestested. 
+The two populations of Brevolium found within Eunicea flexuosa at different depths have been identified as likely candidates to be cryptic species based upon the population genomics used in this experiment. Further the genes that separate these populations have been identified to be associated with (placeholder). The evidence that there are two species of symbiont living in close proximity to each other within a single species of coral suggests that there could be a much higher magnitude of symbiont species that recently suggestested.
+
