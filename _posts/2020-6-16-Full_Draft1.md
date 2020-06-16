@@ -24,17 +24,17 @@ Here, we use a population genetics approach to determine the genetic difference 
 Using the Single Nucleotide Polymorphisms (SNPs) we are also able to study which genes might be responsible for the difference in populations of Brevolium.
 Understanding the differences between Brevolium species, and symbiont species in general is becoming increasingly important as conservation efforts try to find possible solutions for coral degradation as ocean temperatures rise. Knowing the symbionts that are best adapted for certain temperatures or depths can help select the best candidates for reseeding of reefs with corals.
 
-
 # Methods
 
 
-Original sampling occurred in the carribean (Prada (year)). Eunicea flexuosa was sampled at (number of sites) sites. The depths of the coral from each site were recorded and used to separate them into two populations. Further genetic sampling placed each coral in either the shallow population or the deep population. The symbiont within the coral was also genetically sequenced.
-The information was transitioned to a vcf file and the number of SNPs were filtered using vcf tools (vcftools reference). First a minimum depth of 10x was established. The tool --miss .50  filtered out any snp with over 50% missing information. The minimum allele count was set at .01 and the file was thinned using --thin 1000. Using the thinned file graphs were made following the GBS tutorial. A minimum spanning network, PCA, DAPC, and Distance tree were made. The two populations were separated using their genetic info. A complot was made.
-Bayescan and PCAdapt analyses were performed in order to determine which SNPs were under selection.
-Hardy wineburg was performed to further filter the data based on their populations.
-Using Admixture 8 files with K values from 1 to 8 were generated and the file with the least cross-validation error was selected. Using this file and the mapping file barplots were created
+Original sampling occurred in the Bahamas, Panama, Puerto Rico, and Curaçao  (Prada 2013). Eunicea flexuosa samples were taken at a shallow and a deep depth for each of the four sites. The depths of the coral from each site were recorded and used to separate them into two populations. The Brevolium within the coral was also genetically sequenced.
+The genetic information was transitioned from BAM files to a vcf file using SNP calling. vcftools (vcftools reference) was used to filter these SNP files using the following tools. First a minimum depth of 10x was established. The tool --miss .50  filtered out any snp with over 50% missing information. The minimum allele count was set at .01 and the file was thinned using --thin 1000. 
+Principal component analysis (PCA) was run on the filtered vcf file. Using vcfR (reference) the vcf file was combined with a mapping file continuing population information and turned into a genlight object. This genlight object was used to create a distance tree, PCA plot, Eigenvalues plot, DAPC, and compoplot.
+A Hardy wineburg filter was applied using vcftools to further filter the data based on their populations.
+Using Admixture 8 files with K values from 1 to 8 were generated and the file with the least cross-validation error was selected. Using this file and the mapping file barplots were created for each of the K values.
+A Weir and Cockerham FST calculation was performed using vcftools.
+Bayescan and PCAdapt analyses were performed in order to determine which SNPs were under selection and which were neutral SNPs. The SNPs under selection and the information on the chromosome and position they are found in were then exported. Each of the genes surrounding each SNP were run through BLAST on NCBI to determine what genes were under selection. 
 
-* NCBI used to determine the use of the genes
 
 
 # Results
