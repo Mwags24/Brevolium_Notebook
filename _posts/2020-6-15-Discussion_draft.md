@@ -28,6 +28,9 @@ tags:
        * more diversity = more likely some survive a stressful event
 * How are symbionts passed on for Eunicea?
    * parents or environment? (horizontal or vertical)?
+      * Answer: Eunicia aquires it Horizontally (from the environment)
+* Does this symbiont assosiate with any other corals?
+   * Is it capable of assosiating with other corals?
 
 # Discussion
 
