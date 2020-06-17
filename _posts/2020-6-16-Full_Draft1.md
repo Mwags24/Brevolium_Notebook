@@ -24,13 +24,16 @@ Here, we use a population genetics approach to determine the genetic difference 
 Using the Single Nucleotide Polymorphisms (SNPs) we are also able to study which genes might be responsible for the difference in populations of Brevolium. Programs like Bayescan and PCAdapt can be used to find SNPs under selection. Looking at what genes the SNPs under selection are located on can help determine what traits may be the source of selection between the populations. 
 Understanding the differences between Brevolium species, and symbiont species in general is becoming increasingly important as conservation efforts try to find possible solutions for coral degradation as ocean temperatures rise. Knowing the symbionts that are best adapted for certain temperatures or depths can help select the best candidates for reseeding of reefs with corals.
 
+**This is the first to analyze with genome-wide data a diversification process in two sister species of Symbiodiniaceae**
+
+
 # Methods
 
 
 Original sampling occurred in the Bahamas, Panama, Puerto Rico, and Curaçao  (Prada 2013). Eunicea flexuosa samples were taken at a shallow and a deep depth for each of the four sites. The depths of the coral from each site were recorded and used to separate them into two populations. The Brevolium within the coral was also genetically sequenced.
 The genetic information was transitioned from BAM files to a vcf file using SNP calling. vcftools (vcftools reference) was used to filter these SNP files using the following tools. First a minimum depth of 10x was established. The tool --miss .50  filtered out any snp with over 50% missing information. The minimum allele count was set at .01 and the file was thinned using --thin 1000. 
 Principal component analysis (PCA) was run on the filtered vcf file. Using vcfR (reference) the vcf file was combined with a mapping file continuing population information and turned into a genlight object. This genlight object was used to create a distance tree, PCA plot, Eigenvalues plot, DAPC, and compoplot.
-A Hardy wineburg filter was applied using vcftools to further filter the data based on their populations.
+A Hardy weinberg filter was applied using vcftools to further filter the data based on their populations.
 Using Admixture 8 files with K values from 1 to 8 were generated and the file with the least cross-validation error was selected. Using this file and the mapping file barplots were created for each of the K values.
 A Weir and Cockerham FST calculation was performed using vcftools.
 Bayescan and PCAdapt analyses were performed in order to determine which SNPs were under selection and which were neutral SNPs. The SNPs under selection and the information on the chromosome and position they are found in were then exported. Each of the genes surrounding each SNP were run through BLAST on NCBI to determine what genes were under selection. 
@@ -71,10 +74,10 @@ FST value was 0.40116
 
 # Discussion
 
-The results from this experiment suggest that the two populations of brevolium found at seperate depths within Eunicea flexuosa are distinct species. While occupying the same species of coral. The difference between the two populations is extremely clear with no outliers, and this has led us to consider that these two populations may be two different species. The lineage and diversity of the Brevolium genus is not well described, so the discovery of the separation between two species that occupy the same coral host could lead to some important conclusions.
+The results from this experiment suggest that the two populations of brevolium found at seperate depths within Eunicea flexuosa are distinct species. While occupying the same species of coral. The difference between the two populations is extremely clear with no outliers, and this has led us to consider that these two populations may be two different species. The lineage and diversity of the Brevolium genus is not well described, so the discovery of the separation between two species that occupy the same coral host could lead to some important conclusions. This study uses a promising analytical method that has not been considered in previous studies. 
 
 **SNP counts**
-The basis of this analysis was done with population genomics through the use of SNPs. SNPs are single nucleotide variations in a genome of an individual. These SNPs can be very helpful in determining the composition of a population. Individuals within a single population will have many of the same SNPs since they are passed on through generations. Over time as populations become distinct more SNPs will become indicative of each population making the divide between populations clearer. Using programs, populations can be mapped based upon their SNPs. This experiment used the programs, Principal Component Analysis (PCAs), Bayescan, PCAdapt, and Admixture to observe how the populations were segregated. All of these outputted results that were clear and pointed to a very defined difference in population that also gives evidence that these are in fact cryptic species of Brevolium.
+The basis of this analysis was done with genome wide population genomics through the use of SNPs. SNPs are single nucleotide variations in a genome of an individual. These SNPs can be very helpful in determining the composition of a population. Individuals within a single population will have many of the same SNPs since they are passed on through generations. Over time as populations become distinct more SNPs will become indicative of each population making the divide between populations clearer. Using programs, populations can be mapped based upon their SNPs. This experiment used the programs, Principal Component Analysis (PCAs), Bayescan, PCAdapt, and Admixture to observe how the populations were segregated. All of these outputted results that were clear and pointed to a very defined difference in population that also gives evidence that these are in fact cryptic species of Brevolium.
 In order to successfully analyse SNP data it needs to be filtered first. The Filtering steps that were used took the initial 1415812 SNPs and reduced it count down to 7043 (Table 1(of filtering steps)). The remaining SNPs only accounted for the well defined and clean SNPs. Each filtering step reduced the amount of SNPs without reducing the overall information found within. Once the SNPs were cleaned the programs that analysed could output clear non-messy information.
 
 **PCA**
@@ -82,7 +85,6 @@ The Principle Component Analysis (PCA) showed the two populations segregated fro
 
 **Admixture**
 Admixture is a program that will create a compopolot that separates SNPs into different numbers of populations. This program outputted 8 possibilities ranging from one population to eight populations. each was given a value that indicates the likelihood that this model was accurate. The lowest, and therefore most accurate, model was the model indicating two populations. Figure 3 shows The model indicating three populations. The green bars in the center are signifying the two outliers seen before that do not fall into either population. The deep and shallow populations' bars are almost entirely solid colors indicating they have almost no crossover, and that it is very high certainty that they are separate.
-
 
 **Bayescan and PCAdapt**
 Both show the same conclusions as the PCAs. These programs help find SNPs that are under selection. The SNPs that are under selection should be associated with genes that make the Brevolium species better adapted to either the shallow or deep population. Bayescan is a stricter program and did not find SNPs under selection. However out of the 7877 SNPs used in the PCAdapt program 61 SNPs under selection were found.
@@ -105,5 +107,4 @@ Corals have been well classified and studied since their importance to the ocean
 
 # Conclusion
 
-The two populations of Brevolium found within Eunicea flexuosa at different depths have been identified as likely candidates to be cryptic species based upon the population genomics used in this experiment. Further the genes that separate these populations have been identified to be associated with (placeholder). The evidence that there are two species of symbiont living in close proximity to each other within a single species of coral suggests that there could be a much higher magnitude of symbiont species that recently suggestested.
-
+The two populations of Brevolium found within Eunicea flexuosa at different depths have been identified as likely candidates to be cryptic species based upon the population genomics used in this experiment. Further the genes that separate these populations have been identified to be associated with (placeholder). The evidence that there are two species of symbiont living in close proximity to each other within a single species of coral suggests that there could be a much higher magnitude of symbiont species that recently suggestested. This Study has also shown the effectiveness of genome wide analysis, a method previously untested.
