@@ -81,3 +81,6 @@ I went through each of the functions labeled above looking for any possible conn
 |||
 |Actin|acording to X. Pochon 2012, Actin is identified as a gene that could be used as an alternative molecular marker for Symbiodinium|
 |fumarate reductase|converts fumarate to succinate, and is important in microbial metabolism as a part of anaerobic respiration|
+|phosphate translocator|responsible for exporting all the carbohydrate produced in photosynthesi|
+|Pyruvate-flavodoxin oxidoreductase|required for the transfer of electrons from pyruvate to flavodoxin, which reduces nitrogenase.|
+|Calcineurin subunit B|Regulatory subunit of calcineurin, a calcium-dependent, calmodulin stimulated protein phosphatase. Confers calcium sensitivity|
