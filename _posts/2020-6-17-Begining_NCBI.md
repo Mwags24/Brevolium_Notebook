@@ -7,7 +7,7 @@ tags:
 
 
 # Table of SNPs under selection
-third collumn states the function assosiated with the Contig 
+Third collumn states the function assosiated with the Contig 
 
 The functions were pulled from the min_assemblymin250_annotation_fullGO.txt file.
 
