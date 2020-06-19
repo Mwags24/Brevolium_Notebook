@@ -7,11 +7,13 @@ tags:
 
 
 # Table of SNPs under selection
-third collumn indicates if it has been put through Blast yet
+third collumn states the function assosiated with the Contig 
 
-|Chromosome |Position |Annotation file|
+The functions were pulled from the min_assemblymin250_annotation_fullGO.txt file.
+
+|Contig |Position |Annotation file|
 |comp84_c0_seq2	    |173|Probable small nuclear ribonucleoprotein E|
-|comp758_c0_seq2	|138|Actin	Achlya bisexualis|
+|comp758_c0_seq2	|138|Actin|
 |comp874_c0_seq1	|88|Putative fumarate reductase|
 |comp1141_c0_seq1	|268|Putative uncharacterized protein|
 |comp1513_c0_seq1	|50||
@@ -21,7 +23,7 @@ third collumn indicates if it has been put through Blast yet
 |comp2529_c0_seq1	|288|Putative uncharacterized protein|
 |comp3009_c0_seq1	|245|Chymotrypsinogen B function|
 |comp3079_c0_seq1	|73|**Light-harvesting protein (Fragment)**|
-|comp3143_c0_seq1	|90|Endoglucanase Bacillus subtilis|
+|comp3143_c0_seq1	|90|Endoglucanase|
 |comp3318_c0_seq1	|26||
 |comp3440_c0_seq1	|261||
 |comp3573_c0_seq1	|230|ubiquitin-related modifier 2-B|
@@ -69,3 +71,13 @@ third collumn indicates if it has been put through Blast yet
 |comp10191_c0_seq1  |353|Uncharacterized protein|
 |comp10196_c0_seq1  |246|Putative Methyltransferase-related|
 |comp10199_c0_seq1  |25|**Fucoxanthin-chlorophyll a-c binding protein A**|
+
+
+## Looking for connections
+
+I went through each of the functions labeled above looking for any possible connections to the research other than the obvious light ones.
+
+|Function|Possible conections|
+|||
+|Actin|acording to X. Pochon 2012, Actin is identified as a gene that could be used as an alternative molecular marker for Symbiodinium|
+|fumarate reductase|converts fumarate to succinate, and is important in microbial metabolism as a part of anaerobic respiration|
