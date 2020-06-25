@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Preperations for NCBI"
+title: "Functions of SNPs under selection"
 categories: 
 tags: 
 ---
