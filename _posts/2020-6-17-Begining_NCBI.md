@@ -84,3 +84,5 @@ I went through each of the functions labeled above looking for any possible conn
 |phosphate translocator|responsible for exporting all the carbohydrate produced in photosynthesi|
 |Pyruvate-flavodoxin oxidoreductase|required for the transfer of electrons from pyruvate to flavodoxin, which reduces nitrogenase.|
 |Calcineurin subunit B|Regulatory subunit of calcineurin, a calcium-dependent, calmodulin stimulated protein phosphatase. Confers calcium sensitivity|
+
+
