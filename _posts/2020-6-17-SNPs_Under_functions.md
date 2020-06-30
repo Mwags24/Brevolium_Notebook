@@ -161,6 +161,8 @@ Other info
 
 * Oxioreductase came up a lot
 * also cellulose 
+* reproduction 
+* ATP binding 
 
 
 |Contig|GO|Function|
