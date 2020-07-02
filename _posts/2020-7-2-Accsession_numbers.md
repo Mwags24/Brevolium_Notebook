@@ -5,7 +5,7 @@ categories:
 tags: 
 ---
 
-## Using LaJeunesse's descriptions of the Symbiodiniaceae Genuses  
+## Using LaJeunesse's descriptions of the Symbiodiniaceae Genera  
 
 
 |**Genus**|**species**|**Accsession #**|
