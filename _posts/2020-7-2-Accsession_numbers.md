@@ -8,7 +8,7 @@ tags:
 ## Using LaJeunesse's descriptions of the Symbiodiniaceae Genera  
 
 
-|**Genus**|**species**|**Accsession #**|
+|**Genus**|**Type species**|**Accsession #**|
 |Symbiodinium|S. microadriaticum|KM972549|
 |Breviolum|B. minutum|KT149349|
 |Cladocopium|C. goreaui|FJ529545|
