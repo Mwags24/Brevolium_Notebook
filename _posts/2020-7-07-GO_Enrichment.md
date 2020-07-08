@@ -27,4 +27,4 @@ If there is no branch length difference between two of the Gene clusters it mean
 
 Four catagories of results were output: d2s, s2d, depth, and species
 
-Each of these had three different graphs: MF (Molecular Function), CC (Sellular component), and BP (Biological process)
+Each of these had three different graphs: MF (Molecular Function), CC (Cellular component), and BP (Biological process)
