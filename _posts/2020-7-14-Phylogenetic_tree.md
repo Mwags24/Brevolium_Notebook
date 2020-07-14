@@ -38,4 +38,4 @@ Using the extracted comp40829 sequences four samples were seleced from the Deep 
 
 Our samples are expected to be Brevolium so I added all the described Brevolium species by LaJunesse to the tree.
 
-![Samples]({{ site.baseurl }}/images/Symbiodiniaceae_Tree_With_Brevolium.png "Samples Tree")
+![Brevolium]({{ site.baseurl }}/images/Symbiodiniaceae_Tree_With_Brevolium.png "Brevolium Tree")
