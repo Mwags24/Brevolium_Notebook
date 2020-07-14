@@ -8,6 +8,9 @@ tags:
 # Using Bluewaves to pull out the needed files
 
 
+### These two comp sequences were determined to be the location of the 28s ribosomal subunit for our samples
+The 28s subunit is the molecular marker that was used by LaJunesse to seperate the species of Symbiodinase.
+
 ## comp38000
 
 {bash}
