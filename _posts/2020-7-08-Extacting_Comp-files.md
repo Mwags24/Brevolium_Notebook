@@ -14,6 +14,9 @@ tags:
 mkdir ../phylogenetics
 cd ../phylogenetics
 
+ln -s /data/pradalab/mgomez/brevolium/read_group/*bam .
+ln -s /data/pradalab/mgomez/brevolium/read_group/*bai . 
+
 nano comp38000_c0_seq1.sh
 
 
@@ -25,7 +28,7 @@ nano comp38000_c0_seq1.sh
 #SBATCH --mail-type=FAIL  --mail-user=myles_wagner@my.uri.edu
 cd $SLURM_SUBMIT_DIR
 module load SAMtools/1.9-iccifort-2019.1.144-GCC-8.2.0-2.31.1
-for file in /data/pradalab/mgomez/brevolium/read_group/*.bowtie2.bam_rmdup.bam_sorted.bam_RD.bam
+for file in /data/pradalab/Brevolium_depth/vcf_files/phylogenetics/*.bowtie2.bam_rmdup.bam_sorted.bam_RD.bam
   do samtools view -bh $file "comp38000_c0_seq1" >${file/bowtie2.bam_rmdup.bam_sorted.bam_RD.bam/}_comp38000_c0_seq1.bam
   done
 ln -s /data/pradalab/mgomez/brevolium/read_group/*comp38000_c0_seq1.bam .
