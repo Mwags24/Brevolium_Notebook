@@ -30,4 +30,12 @@ Comp 40829 had long reads and the extractions were easy to utilize.
 
 Using the extracted comp40829 sequences four samples were seleced from the Deep group and the shallow group.
 
-![Base]({{ site.baseurl }}/images/Base_Symbiodiniaceae_Tree.png "Base Tree")
+![Samples]({{ site.baseurl }}/images/Symbiodiniaceae_Tree_With_Samples.png "Samples Tree")
+
+
+
+## Adding Brevolium
+
+Our samples are expected to be Brevolium so I added all the described Brevolium species by LaJunesse to the tree.
+
+![Samples]({{ site.baseurl }}/images/Symbiodiniaceae_Tree_With_Brevolium.png "Samples Tree")
