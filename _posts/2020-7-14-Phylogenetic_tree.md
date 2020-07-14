@@ -28,4 +28,6 @@ Comp 40829 had long reads and the extractions were easy to utilize.
 
 ## creating FASTA files
 
-using the extracted comp40829 files
+Using the extracted comp40829 sequences four samples were seleced from the Deep group and the shallow group.
+
+![Base]({{ site.baseurl }}/images/Base_Symbiodiniaceae_Tree.png "Base Tree")
