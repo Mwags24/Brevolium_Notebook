@@ -7,10 +7,11 @@ tags:
 
 # Making a Phylogenetic tree with known symbiont species and our samples
 
+These trees were made using RAxML with 1000 bootstraps
+
 ## First a base Sybiodinase tree was created
 
 The 28s ribosomal subunit was used as the molecular marker and all of the sequences were pulled from NCBI from LaJunesse's paper 
-
 
 
 ## Base Tree
@@ -39,3 +40,12 @@ Using the extracted comp40829 sequences four samples were seleced from the Deep 
 Our samples are expected to be Brevolium so I added all the described Brevolium species by LaJunesse to the tree.
 
 ![Brevolium]({{ site.baseurl }}/images/Symbiodiniaceae_Tree_With_Brevolium.png "Brevolium Tree")
+
+
+# MrBayes Tree
+
+A tree was then made using MrBayes with a 1,100,000 chain length
+
+
+![MrBayes]({{ site.baseurl }}/images/MrBayes_Full_Tree.png "MrBayes Tree")
+MrBayes_Full_Tree.png
