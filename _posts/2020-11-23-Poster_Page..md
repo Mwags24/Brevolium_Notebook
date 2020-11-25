@@ -14,8 +14,6 @@ tags:
 
 
 
-
-
 ### Introduction
 
 
@@ -72,3 +70,20 @@ link to the go enrichment table post
    * Filtering steps
    * Bayescan/PCAdapt/FstHet
 	* table of GO functions for SNPs under selection
+
+
+
+
+
+Disscussion points
+
+
+
+
+
+conclusion
+
+
+
+
+further research
