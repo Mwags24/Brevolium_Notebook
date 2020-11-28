@@ -86,25 +86,24 @@ link to the go enrichment table post
 
 ### Disscussion points
 
-As Seen in the PCR graphs There is a very clear genetic difference between the two symbiont populations. . Enough difference to classify the populations as different species (30%), could even be enough to consider them indifferent geneses.​
+As Seen in the PCR graphs There is a very clear genetic difference between the two symbiont populations. Enough difference to classify the populations as different species (30%), could even be enough to consider them indifferent geneses.​
 Transcriptome data was unused prior – allows for more acurate identification as well as identification of the genes under selection. Becoming more common in identification studies in other animals.​
 Genes that encode for metabolism and photosynthesis were found to be under selection.​
 Identifying and understanding the differences in symbionts can help better inform conservation efforts.​
-Future work: taxonomically identify the shallow species seen in this research, and use transcriptome data to identify more symbiont species, and use it to identify how they differ in mechanisms related to photosynthesis.​
-​
-​
-​
-​
-​
+
 ​
 ​
 ​
 
 
+# conclusion
 
-conclusion
+* The Family of Simbiodinacidea is not yet fully taxinomically understood
+* Two corals from the same species can have two different species of symbiont within them 
 
 
 
+### further research
 
-further research
+taxonomically identify the shallow species seen in this research, and use transcriptome data to identify more symbiont species, and use it to identify how they differ in mechanisms related to photosynthesis.​
+​
