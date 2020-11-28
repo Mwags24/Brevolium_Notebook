@@ -95,14 +95,14 @@ Identifying and understanding the differences in symbionts can help better infor
 ​
 
 
-# conclusion
+# Conclusion
 
 * The Family of Simbiodinacidea is not yet fully taxinomically understood
 * Two corals from the same species can have two different species of symbiont within them 
 
 
 
-### further research
+### Further Research
 
-taxonomically identify the shallow species seen in this research, and use transcriptome data to identify more symbiont species, and use it to identify how they differ in mechanisms related to photosynthesis.​
+Taxonomically identify the shallow species seen in this research, and use transcriptome data to identify more symbiont species, and use it to identify how they differ in mechanisms related to photosynthesis.​
 ​
