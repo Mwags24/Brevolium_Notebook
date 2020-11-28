@@ -50,7 +50,6 @@ link to the go enrichment table post
 ![GO]({{ site.baseurl }}/images/GO_d2s_BP.pdf "Enrichment analysis")
 
 
-
 ### Distance tree
 ![DistnceTree]({{ site.baseurl }}/images/DistanceTree_noNA.pdf "Distance Tree")
 
