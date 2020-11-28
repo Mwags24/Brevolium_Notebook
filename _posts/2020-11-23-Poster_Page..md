@@ -64,20 +64,11 @@ link to the go enrichment table post
 
 **Figure 2**. **(A)**Principal Component Analysis using PCA1 and PCA2. The two populations are segregated by PCA1. **(B)** The Eigenvalues showing the amount of variance described by each PCA. PCA1 describes most of the variance
 
-### K3 Admixture
+### K2 Admixture
 
-![K3]({{ site.baseurl }}/images/Admixture_K2_plot.pdf "Admixture K3 plot")
+![K2]({{ site.baseurl }}/images/Admixture_K2_plot.pdf "Admixture K2 plot")
 
-**Figure 3** An Admixture plot showing the K = 3 values. Assuming that there are three populations.
-
-
-**FST value was 0.40116**
-
-* NCBI tree rooting our population into larger tree
-* Value Tables?
-   * Filtering steps
-   * Bayescan/PCAdapt/FstHet
-	* table of GO functions for SNPs under selection
+**Figure 3** An Admixture plot showing the K = 2 values. Assuming that there are two populations.
 
 
 
