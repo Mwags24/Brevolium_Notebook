@@ -16,7 +16,7 @@ This test used the 'Mann-Whitney U test' method. that means that instead of look
 ### Here is one of the output graphs
 
 
-![Enrichment]({{ site.baseurl }}/images/GO_d2d_BP "GO enrichment d2s")
+![Enrichment]({{ site.baseurl }}/images/GO_d2d_BP.png "GO enrichment d2s")
 
 The font indicates the level of significance. The colors in the graph either indicate up regulated or down regulated genes, 
 
