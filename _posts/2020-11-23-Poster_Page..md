@@ -47,6 +47,7 @@ graph
 
 link to the go enrichment table post
 
+![GO]({{ site.baseurl }}/images/GO_d2s_BP.pdf "")
 ![GO]({{ site.baseurl }}/images/GO_d2s_BP.pdf "Enrichment analysis")
 
 
