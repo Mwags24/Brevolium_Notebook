@@ -66,7 +66,7 @@ link to the go enrichment table post
 
 ### K3 Admixture
 
-![K3]({{ site.baseurl }}/images/Admixture_K3_plot.pdf "Admixture K3 plot")
+![K3]({{ site.baseurl }}/images/Admixture_K2_plot.pdf "Admixture K3 plot")
 
 **Figure 3** An Admixture plot showing the K = 3 values. Assuming that there are three populations.
 
