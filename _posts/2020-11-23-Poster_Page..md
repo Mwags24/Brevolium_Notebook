@@ -66,7 +66,7 @@ link to the go enrichment table post
 
 ### K2 Admixture
 
-![K2]({{ site.baseurl }}/images/Admixture_K2_plot.pdf "Admixture K2 plot")
+![K2]({{ site.baseurl }}/images/Admixture_K2_plot.jpg "Admixture K2 plot")
 
 **Figure 3** An Admixture plot showing the K = 2 values. Assuming that there are two populations.
 
