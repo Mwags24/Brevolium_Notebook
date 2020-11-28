@@ -16,12 +16,21 @@ tags:
 
 ### Introduction
 
+it is well documented that there are at least six genera of symbionts associated with coral.​
+A study found evidence that suggested a population of the genus Brevolium differed genetically across a depth gradient​
+Few studies have used transcriptome data to classify Symbiodincidae genuses ​
+It is unknown what mechanisms are selected for between populations segregated by depth
 
 
 ### Methods
 
-
-
+Transcriptome Data was taken from symbionts​
+SNP data was used to run PCAs and Admixture​
+Phylogenetic tree made using 28S genetic marker including each Symbiodincidae genus​
+Go enrichment analysis of genes associated with Biological processes between the two populations​
+​
+​
+​
 
 
 
@@ -75,9 +84,21 @@ link to the go enrichment table post
 
 
 
-Disscussion points
+### Disscussion points
 
-
+As Seen in the PCR graphs There is a very clear genetic difference between the two symbiont populations. . Enough difference to classify the populations as different species (30%), could even be enough to consider them indifferent geneses.​
+Transcriptome data was unused prior – allows for more acurate identification as well as identification of the genes under selection. Becoming more common in identification studies in other animals.​
+Genes that encode for metabolism and photosynthesis were found to be under selection.​
+Identifying and understanding the differences in symbionts can help better inform conservation efforts.​
+Future work: taxonomically identify the shallow species seen in this research, and use transcriptome data to identify more symbiont species, and use it to identify how they differ in mechanisms related to photosynthesis.​
+​
+​
+​
+​
+​
+​
+​
+​
 
 
 
