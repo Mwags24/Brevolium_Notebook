@@ -47,8 +47,7 @@ graph
 
 ![link]({{ site.baseurl }}{% post_url 2020-7-07-GO_Entichment.md %})
 
-![GO]({{ site.baseurl }}/images/GO_d2s_BP.pdf "")
-![GO]({{ site.baseurl }}/images/GO_d2s_BP.pdf "Enrichment analysis")
+![GO]({{ site.baseurl }}/images/GO_d2s_BP "Enrichment analysis")
 
 
 ### Distance tree
