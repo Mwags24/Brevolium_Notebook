@@ -83,17 +83,14 @@ link to the go enrichment table post
 
 
 
-### Disscussion points
+## Discussion
 
-As Seen in the PCR graphs There is a very clear genetic difference between the two symbiont populations. Enough difference to classify the populations as different species (30%), could even be enough to consider them indifferent geneses.​
-Transcriptome data was unused prior – allows for more acurate identification as well as identification of the genes under selection. Becoming more common in identification studies in other animals.​
+As seen in the PCR graphs there is a very clear genetic difference between the two symbiont populations. Enough difference to classify the populations as different species (30%), could even be enough to consider them indifferent geneses.​
+Transcriptome data was unused prior – allows for more accurate identification as well as identification of the genes under selection. Becoming more common in identification studies in other animals.​
 Genes that encode for metabolism and photosynthesis were found to be under selection.​
 Identifying and understanding the differences in symbionts can help better inform conservation efforts.​
 
 ​
-​
-​
-
 
 # Conclusion
 
