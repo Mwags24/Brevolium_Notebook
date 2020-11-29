@@ -89,7 +89,7 @@ Identifying and understanding the differences in symbionts can help better infor
 
 * The Family of Simbiodinacidea is not yet fully taxinomically understood
 * Two corals from the same species can have two different species of symbiont within them 
-* Genes that control Photosynthesis are upregulated in Deep corals.
+* Genes that control photosynthesis are upregulated in deep corals.
 
 
 
@@ -108,7 +108,9 @@ The Coastal Fellows Program is supported by the URI Offices of the President and
 ### Liturature Cited
 
 Prada, Carlos. et al.  2014. “Cryptic Diversity Hides Host and Habitat Specialization in a Gorgonian-Algal Symbiosis.” Molecular Ecology 23, 3330-3340.​
+
 ​
 LaJeunesse, Todd C. et al. 2018. “Systematic Revision of Symbiodiniaceae Highlights the Antiquity and Diversity of Coral Endosymbionts.” Current Biology 28, 1-11​
+
 ​
 Wright, R. M., Aglyamova, G. V., Meyer, E. and Matz, M. V. Gene expression associated with white syndromes in a reef-building coral, Acropora hyacinthus. BMC Genomics 2015, 16: 371.
