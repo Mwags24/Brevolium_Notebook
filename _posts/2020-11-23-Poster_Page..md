@@ -16,7 +16,7 @@ tags:
 
 ### Introduction
 
-it is well documented that there are at least six genera of symbionts associated with coral.​
+It is well documented that there are at least six genera of symbionts associated with coral (Lajunesse 2018).​
 A study found evidence that suggested a population of the genus Brevolium differed genetically across a depth gradient​
 Few studies have used transcriptome data to classify Symbiodincidae genuses ​
 It is unknown what mechanisms are selected for between populations segregated by depth
@@ -89,6 +89,7 @@ Identifying and understanding the differences in symbionts can help better infor
 
 * The Family of Simbiodinacidea is not yet fully taxinomically understood
 * Two corals from the same species can have two different species of symbiont within them 
+* Genes that control Photosynthesis are upregulated in Deep corals.
 
 
 
@@ -96,3 +97,18 @@ Identifying and understanding the differences in symbionts can help better infor
 
 Taxonomically identify the shallow species seen in this research, and use transcriptome data to identify more symbiont species, and use it to identify how they differ in mechanisms related to photosynthesis.​
 ​
+
+
+### Acknowledgements
+​
+I would like to thank my mentors Dr. Carlos Prada and Matias Gomez for being so supportive and making this project possible. A huge thank you to everyone who worked hard to put together this Coastal Fellows program despite the challanging circumstances we faced this summer. It is people like that who give students like myself the opportunity to follow our passion in science and begin our careers as scientists.​
+The Coastal Fellows Program is supported by the URI Offices of the President and Provost and the College of Environment and Life Sciences.
+
+
+### Liturature Cited
+
+Prada, Carlos. et al.  2014. “Cryptic Diversity Hides Host and Habitat Specialization in a Gorgonian-Algal Symbiosis.” Molecular Ecology 23, 3330-3340.​
+​
+LaJeunesse, Todd C. et al. 2018. “Systematic Revision of Symbiodiniaceae Highlights the Antiquity and Diversity of Coral Endosymbionts.” Current Biology 28, 1-11​
+​
+Wright, R. M., Aglyamova, G. V., Meyer, E. and Matz, M. V. Gene expression associated with white syndromes in a reef-building coral, Acropora hyacinthus. BMC Genomics 2015, 16: 371.
