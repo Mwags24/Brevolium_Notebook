@@ -42,8 +42,8 @@ Go enrichment analysis of genes associated with Biological processes between the
 
 Figure 1. This is a 1000 bootstrap RAxML phylogenetic tree built using Geneious using the 28s molecular marker. Four samples from the deep population (orange) and Four from the Shallow species (green) were compared to each type species of the seven described Symbiodiniaceae genera, as well as each described Brevolium species (blue).​
 
-Use this link to 
-[More detailed description of the methods used to create the phylogenetic tree]({{ site.baseurl }}{% post_url 2020-7-14-Phylogenetic_tree %})
+ 
+[Use this link to see a more detailed description of the methods used to create the phylogenetic tree]({{ site.baseurl }}{% post_url 2020-7-14-Phylogenetic_tree %})
 
 **Figure 2**
 
@@ -51,7 +51,7 @@ Use this link to
 
 Figure 2.  Gene Ontology enrichment analysis of the genes controlling biological processes that are under selection. The font indicates the level of significance. Blue indicates up regulated and red indicates down regulated genes.​
 
-used the program found here https://github.com/z0on/GO_MWU
+[Use this link to see a more detailed description of the methods used to create the Enrichment analysis tree]({{ site.baseurl }}{% post_url 2020-7-07-GO_Enrichment %})
 
 
 ### Distance tree
