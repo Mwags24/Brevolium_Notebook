@@ -8,11 +8,15 @@ tags:
 # The number of snps for each filtering step
 
 First these filters were applied.
+
+
 |**Filter**|**function**|
 |--remove-indels|Removes SNPs that alter the length of the REF allele|
 |–min-alleles 2 –max-alleles 2|makes sure all SNPs are biallelic|
 
 Then these filtered down to what we needed
+
+
 |**File**|**Filter applied**|**Number of  SNPs**|
 |brevolium_snps_biallelic.recode.vcf | -min-meanDP 10 |kept 347031 out of a possible 1415812 Sites|
 | brevolium_snps_biallelic_10x.recode.vcf | –max-missing 0.5 –minQ 30 | 48145 out of a possible 347031 Sites |
