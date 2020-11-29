@@ -43,10 +43,12 @@ Go enrichment analysis of genes associated with Biological processes between the
 
 Go enrichment
 
-graph
+**Figure 2**
 
 ![Enrichment]({{ site.baseurl }}/images/GO_d2s_BP.png "Enrichment analysis")
 
+
+used the program found here https://github.com/z0on/GO_MWU
 
 
 ### Distance tree
