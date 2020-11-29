@@ -45,7 +45,7 @@ Go enrichment
 
 graph
 
-![Enrichment]({{ site.baseurl }}/images/GO_d2s_BP.png "Enrichment analysis)
+![Enrichment]({{ site.baseurl }}/images/GO_d2s_BP.png "Enrichment analysis")
 
 
 
