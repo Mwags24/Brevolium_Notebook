@@ -105,7 +105,7 @@ I would like to thank my mentors Dr. Carlos Prada and Matias Gomez for being so 
 The Coastal Fellows Program is supported by the URI Offices of the President and Provost and the College of Environment and Life Sciences.
 
 
-### Liturature Cited
+### Literature Cited
 
 Prada, Carlos. et al.  2014. “Cryptic Diversity Hides Host and Habitat Specialization in a Gorgonian-Algal Symbiosis.” Molecular Ecology 23, 3330-3340.​
 
