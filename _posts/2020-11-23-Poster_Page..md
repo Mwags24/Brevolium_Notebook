@@ -42,8 +42,8 @@ Go enrichment analysis of genes associated with Biological processes between the
 
 Figure 1. This is a 1000 bootstrap RAxML phylogenetic tree built using Geneious using the 28s molecular marker. Four samples from the deep population (orange) and Four from the Shallow species (green) were compared to each type species of the seven described Symbiodiniaceae genera, as well as each described Brevolium species (blue).​
 
-
-[Primer info]({{ site.baseurl }}{% post_url 2020-7-14-Phylogenetic_tree %})
+Use this link to 
+[More detailed description of the methods used to create the phylogenetic tree]({{ site.baseurl }}{% post_url 2020-7-14-Phylogenetic_tree %})
 
 **Figure 2**
 
