@@ -57,7 +57,7 @@ Figure 2.  Gene Ontology enrichment analysis of the genes controlling biological
 ### Distance tree
 ![DistnceTree]({{ site.baseurl }}/images/DistanceTree_noNA.pdf "Distance Tree")
 
-**Figure 3**. Phylogenetic analysis of two populations of Brevolium From the Carribean. The populations are physically separated by a depth kline. Genetically they are separated by a distance of approximately .3 or 30% genetic variance.
+**Figure 3**. Phylogenetic analysis of two populations of Brevolium From the Carribean. The populations are physically separated by a depth kline. Genetically they are separated by a distance of approximately .3 or 30% genetic variance. The orange group is the shallower group and the green group is the deeper group.
 
 
 ### PCA
