@@ -10,7 +10,7 @@ tags:
 ## The full poster
 
 
-![Poster]({{ site.baseurl }}/images/MylesWagner_JPEG "Poster")
+![Poster]({{ site.baseurl }}/images/Myles_Wagner_JPEG "Poster")
 
 
 # Introduction
