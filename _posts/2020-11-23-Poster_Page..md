@@ -10,7 +10,7 @@ tags:
 ## The full poster
 
 
-![Poster]({{ site.baseurl }}/images/Brevolium_Poster_2020.pdf "Poster")
+![Poster]({{ site.baseurl }}/images/Brevolium_Poster_2020.png "Poster")
 
 
 # Introduction
