@@ -10,7 +10,7 @@ tags:
 ## The full poster
 
 
-![Poster]({{ site.baseurl }}/images/Myles_Wagner_JPEG.jpg "Poster")
+![Poster]({{ site.baseurl }}/images/Brevolium_Poster_2020.pdf "Poster")
 
 
 # Introduction
