@@ -12,6 +12,7 @@ tags:
 
 **include image of final poster**
 
+![Poster]({{ site.baseurl }}/images/MylesWagner_JPEG "Poster")
 
 
 # Introduction
