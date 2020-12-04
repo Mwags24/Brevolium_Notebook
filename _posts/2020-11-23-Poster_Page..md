@@ -18,10 +18,9 @@ tags:
 * Corals have a symbiotic relationship with dinoflagellate algae within their cells.​
 * Corals and their symbiont can be dispersed over great distances, but organisms that live at different depths experience different conditions. ​
 * We used extensive genomic tools to undestand  the major physiological differences between two symbiont species that are specialized to live in different habitats that are as close as 200 meters.​
-
 * It is well documented that there are at least six genera of symbionts associated with coral (Lajunesse 2018).​
 * A study found evidence that suggested a population of the genus Brevolium differed genetically across a depth gradient​
-* Few studies have used transcriptome data to classify Symbiodincidae genuses ​
+* Few studies have used transcriptome data to classify Symbiodincidae genuses 
 * It is unknown what mechanisms are selected for between populations segregated by depth
 
 
