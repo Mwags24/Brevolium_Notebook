@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Poster"
+title: "Coastal Fellows Symposium"
 categories: 
 tags: 
 ---
