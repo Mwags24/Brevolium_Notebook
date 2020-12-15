@@ -38,7 +38,7 @@ tags:
 
 ![Brevolium]({{ site.baseurl }}/images/Symbiodiniaceae_Tree_With_Brevolium.png "Brevolium Tree")
 
-Figure 1. This is a 1000 bootstrap RAxML phylogenetic tree built using Geneious using the 28s molecular marker. Four samples from the deep population (orange) and Four from the Shallow species (green) were compared to each type species of the seven described Symbiodiniaceae genera, as well as each described Brevolium species (blue).​
+Figure 1. This is a 1000 bootstrap RAxML phylogenetic tree built using Geneious using the 28s molecular marker. Four samples from the deep population (orange) and four from the shallow species (green) were compared to each type species of the seven described Symbiodiniaceae genera, as well as each described Brevolium species (blue).​
 
  
 [Use this link to see a more detailed description of the methods used to create the phylogenetic tree.]({{ site.baseurl }}{% post_url 2020-7-14-Phylogenetic_tree %})
@@ -47,7 +47,7 @@ Figure 1. This is a 1000 bootstrap RAxML phylogenetic tree built using Geneious 
 
 ![Enrichment]({{ site.baseurl }}/images/GO_d2s_BP.png "Enrichment analysis")
 
-Figure 2.  Gene Ontology enrichment analysis of the genes controlling biological processes that are under selection. The font indicates the level of significance. Blue indicates up regulated and red indicates down regulated genes.​
+Figure 2.  Gene Ontology enrichment analysis of the genes controlling biological processes that are under selection. The font indicates the level of significance. Blue indicates up regulated and red indicates down regulated genes.​ This is a graph that shows changes in gene enrichment when a deep coral is moved to shallower water.
 
 [Use this link to see a more detailed description of the methods used to create the Enrichment analysis tree.]({{ site.baseurl }}{% post_url 2020-7-07-GO_Enrichment %})
 
@@ -76,18 +76,17 @@ Figure 2.  Gene Ontology enrichment analysis of the genes controlling biological
 
 # Discussion
 
-As seen in the PCR graphs there is a very clear genetic difference between the two symbiont populations. Enough difference to classify the populations as different species (30%), could even be enough to consider them indifferent geneses.​
+As seen in the PCA graphs there is a very clear genetic difference between the two symbiont populations. Enough difference to classify the populations as different species (30%), could even be enough to consider them indifferent geneses.​
 Transcriptome data was unused prior – allows for more accurate identification as well as identification of the genes under selection. Becoming more common in identification studies in other animals.​
 Genes that encode for metabolism and photosynthesis were found to be under selection.​
 Identifying and understanding the differences in symbionts can help better inform conservation efforts.​
 
-​
 
 # Conclusion
 
 * The Family of Simbiodinacidea is not yet fully taxinomically understood
-* Two corals from the same species can have two different species of symbiont within them 
-* Genes that control photosynthesis are upregulated in deep corals.
+* Two corals from the same species can have two different species of symbiont within them when at different depths
+* Genes that control photosynthesis are under selection between the two populations.
 
 
 
