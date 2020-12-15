@@ -28,3 +28,43 @@ If there is no branch length difference between two of the Gene clusters it mean
 Four catagories of results were output: d2s, s2d, depth, and species
 
 Each of these had three different graphs: MF (Molecular Function), CC (Cellular component), and BP (Biological process)
+
+
+
+![BP-d2s]({{ site.baseurl }}/images/MWU_BP_d2s.r_DE_resultsFOLDCHANGE.pdf "Enrichment analysis")
+
+
+![BP-depth]({{ site.baseurl }}/images/MWU_BP_depth.r_DE_results_FOLDCHANGE.pdf "Enrichment analysis")
+
+
+![BP-s2d]({{ site.baseurl }}/images/MWU_BP_s2d.r_DE_results_adjp.pdf "Enrichment analysis")
+
+
+![BP-species]({{ site.baseurl }}/images/MWU_BP_species.r_DE_results_FOLD_CHANGE.pdf "Enrichment analysis")
+
+
+
+![CC-d2s]({{ site.baseurl }}/images/MWU_CC_d2s.r_DE_resultsFOLDCHANGE.pdf "Enrichment analysis")
+
+
+![CC-depth]({{ site.baseurl }}/images/MWU_CC_depth.r_DE_results_FOLDCHANGE.pdf "Enrichment analysis")
+
+
+![CC-species]({{ site.baseurl }}/images/MWU_CC_species.r_DE_results_FOLD_CHANGE.pdf "Enrichment analysis")
+
+
+
+
+
+
+![MF-d2s]({{ site.baseurl }}/images/MWU_MF_d2s.r_DE_resultsFOLDCHANGE.pdf "Enrichment analysis")
+
+
+![MF-depth]({{ site.baseurl }}/images/MWU_MF_depth.r_DE_results_FOLDCHANGE.pdf "Enrichment analysis")
+
+
+![MF-species]({{ site.baseurl }}/images/MWU_MF_species.r_DE_results_FOLD_CHANGE.pdf "Enrichment analysis")
+
+
+![MF-s2d]({{ site.baseurl }}//images/MF_s2d.r_DE_results_FOLD_CHANGE.pdf "Enrichment analysis")
+
