@@ -87,3 +87,9 @@ Other info
 |comp9986_c0_seq1|Q0EEE2|  sperm development or sperm function|
 |comp9986_c0_seq1|Q0EEE2| sperm development or sperm function|
 |comp10003_c0_seq1|| - |
+
+
+|Contig |GO |function|
+|comp1141_c0_seq1	|A8I1X4|maybe **Photosynthesis**|
+|comp4279_c0_seq1	|E0WEC8|**Chlorophyll binding and Light-harvesting**|
+|comp10199_c0_seq1  |Q40297|**The light-harvesting complex (LHC) functions as a light receptor, it captures and delivers excitation energy to photosystems with which it is closely associated.**|
