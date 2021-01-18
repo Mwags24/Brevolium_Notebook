@@ -89,6 +89,10 @@ Other info
 |comp10003_c0_seq1|| - |
 
 
+
+These are the really interesting ones
+
+
 |Contig |GO |function|
 |comp1141_c0_seq1	|A8I1X4|maybe **Photosynthesis**|
 |comp4279_c0_seq1	|E0WEC8|**Chlorophyll binding and Light-harvesting**|
